@@ -1,33 +1,35 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
 
 h1 {
   font-size: 48px;
   color: #2e7ad3;
-  margin: 45px;
+  margin: 45px 0;
+  margin-left: 35px;
 }
 h2 {
   font-size: 32px;
   color: #194c90;
-  margin-top: 16px;
+  margin: 0 0 10px;
 }
-p {
-  font-size: 16px;
-  margin: 9px 5px;
-  padding: 0;
-}
-span {
-  text-decoration: underline;
+a {
   color: #ff8000;
   font-weight: bold;
 }
-img {
-  margin-bottom: 25px;
+a:hover,
+a:focus {
+  color: #104c90;
 }
 
 .main-area {
   background-color: #f1f1f1;
   width: 450px;
-  padding: 20px;
+  padding: 25px;
+  margin: 0 auto;
+}
+
+.read-more {
+  margin: 0;
 }
